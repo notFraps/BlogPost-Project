@@ -19,9 +19,9 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
 
-// mongoose.connect("mongodb+srv://owolama:batterylifespan@cluster0.tcojnuc.mongodb.net/blogpostDB");
+mongoose.connect("mongodb+srv://owolama:batterylifespan@cluster0.tcojnuc.mongodb.net/blogpostDB");
 
-mongoose.connect("mongodb://localhost:27017/blogpostDB");
+// mongoose.connect("mongodb://localhost:27017/blogpostDB");
 
 
 const postSchema = {
