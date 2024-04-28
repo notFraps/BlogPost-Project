@@ -8,9 +8,12 @@
   },
   "author": "",
   "license": "ISC",
+<<<<<<< HEAD
   "engines": {
     "node": "20.10.0"
   },
+=======
+>>>>>>> ab9064b374fe1b774e2fd4e620a3b6fd9b3fbea0
   "dependencies": {
     "body-parser": "^1.18.3",
     "ejs": "^3.1.9",
